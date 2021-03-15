@@ -1,0 +1,148 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Mulish", sans-serif;
+}
+
+p,
+a {
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+/* Navigation */
+.navbar {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(217deg, #ffd596, rgba(255, 0, 0, 0) 70.71%),
+    linear-gradient(127deg, #ffdfaf, rgba(0, 255, 0, 0) 70.71%);
+}
+
+.main-title {
+  font-family: "Mulish", sans-serif;
+}
+
+.main-title:hover {
+  color: black;
+}
+
+.search-con {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.nav-list {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #ffab2c;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+li {
+  padding: 1.5rem;
+  list-style: none;
+}
+/* Carousel */
+.carousel-item {
+  height: 100vh;
+  width: 100%;
+}
+
+.c-photo img {
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Cards */
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+}
+
+.rarrow {
+  border: none;
+  background: white;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: linear-gradient(217deg, #ffdca8, rgba(255, 0, 0, 0) 70.71%),
+    linear-gradient(127deg, #ffc46b, rgba(0, 255, 0, 0) 70.71%);
+  margin-bottom: 3rem;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+
+.card-img {
+  height: 50%;
+}
+
+/* footer */
+
+.footer-container {
+  padding: 2rem;
+  background: linear-gradient(217deg, #ffd596, rgba(255, 0, 0, 0) 70.71%),
+    linear-gradient(127deg, #ffdfaf, rgba(0, 255, 0, 0) 70.71%);
+    margin-bottom: 0;
+}
+
+.footer-p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* New Deals */
+
+.mw-title {
+  padding: 0 3rem;
+}
+
+/* About */
+
+.about-container {
+  padding: 5rem;
+  width: 80%;
+  align-content: center;
+  min-height: 100vh;
+}
+
+@media (max-width: 900px) {
+  .about-container {
+    margin: auto;
+  }
+}
+
+/* Contact */
+
+.mb-4 {
+  width: 80%;
+  margin: auto;
+}
+
+.c-btn {
+  color: white;
+}
